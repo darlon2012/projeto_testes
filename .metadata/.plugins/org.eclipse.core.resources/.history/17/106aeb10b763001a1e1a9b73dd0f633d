@@ -1,0 +1,18 @@
+package teste;
+
+import org.junit.Test;
+
+public class Criptografia {
+
+@Test
+public static int  retornarNUmeroColuna(String texto, int numeroColuna) {
+	int numColunas = texto.length();
+	 if((texto.length()%numeroColuna) > 0) {
+		numColunas++;   
+	 }
+	  
+	
+ return numColunas; 	
+}
+
+}
